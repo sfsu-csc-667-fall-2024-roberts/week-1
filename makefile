@@ -19,7 +19,6 @@ clean:
 	@echo "Deleting compiled files..."
 	@rm -rf $(COMPILE_DIR)
 	@rm -f $(SOURCE_FILE)
-	@rm -f $(TARBALL)
 
 # compile depends on clean to ensure we start from a clean slate
 #     every time, so that any changes we make to our java files are

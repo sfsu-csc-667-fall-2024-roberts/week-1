@@ -12,6 +12,6 @@ public class ExampleTest {
     public void testAdd() {
         Example example = new Example(2, 3);
 
-        assertEquals(6, example.add());
+        assertEquals(5, example.add());
     }
 }
