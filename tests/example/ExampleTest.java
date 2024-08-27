@@ -1,4 +1,4 @@
-package tests;
+package tests.example;
 
 import example.Example;
 
@@ -12,6 +12,6 @@ public class ExampleTest {
     public void testAdd() {
         Example example = new Example(2, 3);
 
-        assertEquals(5, example.add());
+        assertEquals(6, example.add());
     }
 }
